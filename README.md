@@ -1,3 +1,3 @@
 # KODLUYORUZ FRONT-END
-## CC
+## CSS
 Ödev-1
