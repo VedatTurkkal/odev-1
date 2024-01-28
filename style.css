@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #43766C;
+}
+
+#baslik-1, #baslik-2, #baslik-3, #baslik-4{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#baslik-1{
+    color: #F8FAE5;
+}
+
+#baslik-2{
+    color: #F3F8FF;
+    display: inline-block;
+    width: 100%;
+    background-image:  radial-gradient(#E48F45, #E48F45);
+
+}
+
+#baslik-3{
+    color: #7E2553;
+    display: inline-block;
+    width: 100%;
+    background-image:  radial-gradient(#ECF4D6, #9AD0C2);
+}
+
+#baslik-4{
+    color: #FF9800;
+    display: inline-block;
+    width: 100%;
+    background-image:  radial-gradient(#F1EAFF, #D0A2F7);
+
+}
+
+.menu{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    display: block;
+    font-size: larger;
+    font-weight: 500;
+    background-image:  radial-gradient(aliceblue, lightgreen);
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cizgi{
+    color: #071952;
+}
+
+#icerik-1{
+    background-color: white;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+    list-style-position: inside;
+    text-wrap:nowrap;
+}
+
+#icerik-1 ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#icerik-1 li{
+    width: 500px;
+    height: 500px;
+    color: darkred;
+    font-size: 25px;
+    margin: 50px 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+span{
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+span span{
+    color: crimson;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#icerik-1 img{
+    border: 10px ridge wheat;
+    border-radius: 10px;
+    width: 20cap;
+    height: 20cap;
+}
+
+#hakkimizda{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#vizyon{
+    color: lightskyblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+#misyon{
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    color: #F1E4C3;
+    padding: 15px;
+}
+
+#index-h4{
+    text-align: center;
+    font-size: 20px;
+    color:gold;
+}
+
+#index-list{
+    text-align: center;
+    font-size: 20px;
+    color: lavender;
+}
